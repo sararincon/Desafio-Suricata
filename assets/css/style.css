@@ -1,0 +1,63 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.suri-nav {
+  background-color: #e83e8c;
+  height: 75px;
+  margin-bottom: 41px;
+}
+
+.suri-nav .navbar-collapse .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-brand img {
+  width: 126px;
+}
+.suri-nav__link {
+  color: #fff;
+}
+
+.suri-titulo {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 47px;
+  letter-spacing: 0px;
+  color: #707070;
+  text-align: center;
+  margin-bottom: 29px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #17a2b8;
+}
+.suri-footer {
+  display: flex;
+  justify-content: center;
+  background-color: #17a2b8;
+  height: 170px;
+  align-items: center;
+}
+.suri-footer-rosado {
+  background-image: url(../img/logo-footer.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50px;
+  background-color: #e83e8c;
+  height: 170px;
+  align-items: center;
+}
+
+/* Breakpoints */
+@media (min-width: 992px) {
+  .suri-nav {
+    margin-bottom: 64px;
+  }
+
+  .suri-titulo {
+    font-size: 60px;
+    line-height: 82px;
+    margin-bottom: 77px;
+  }
+}
